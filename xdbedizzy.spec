@@ -32,5 +32,5 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/xdbedizzy
-%{_mandir}/man1/xdbedizzy.1x*
+%{_mandir}/man1/xdbedizzy.1*
 
