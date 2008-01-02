@@ -5,6 +5,7 @@ Summary:	Demo of DBE creating a double buffered spinning scene
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:	MIT
+BuildRoot:	%{_tmppath}/%{name}-root
 
 BuildRequires:	x11-util-macros >= 1.0.1
 BuildRequires:	libxext-devel >= 1.0.0
