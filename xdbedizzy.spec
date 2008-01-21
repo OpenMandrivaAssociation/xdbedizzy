@@ -17,7 +17,7 @@ Xdbedizzy is a demo of DBE creating a double buffered spinning scene.
 %setup -q -n %{name}-%{version}
 
 %build
-%configure_5x	--x-includes=%{_includedir}\
+%configure	--x-includes=%{_includedir}\
 		--x-libraries=%{_libdir}
 
 %make
