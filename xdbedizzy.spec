@@ -1,6 +1,6 @@
 Name:		xdbedizzy
 Version:	1.1.0
-Release:	8
+Release:	9
 Summary:	Demo of DBE creating a double buffered spinning scene
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
